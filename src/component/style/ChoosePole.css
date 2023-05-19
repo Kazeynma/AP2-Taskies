@@ -1,0 +1,28 @@
+.pole-container {
+    display : flex;
+    flex-direction : column;
+    align-items: center;
+    color : black
+}
+
+.pole-container:hover, .pole-container:active {
+    color : black
+}
+
+.icon-container {
+    border : 1px solid black;
+    width : 150px;
+    height : 150px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container:hover {
+    background-color: rgba(211, 211, 211, 0.584);
+}
+
+.icon {
+    width : 60px;
+    height : 60px;
+}

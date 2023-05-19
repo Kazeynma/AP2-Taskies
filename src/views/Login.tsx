@@ -1,5 +1,7 @@
 //#region importation style
-import { TextField, Button } from "@mui/material"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
+import { TextField, Button, Tooltip } from "@mui/material"
 import './styles/Login.css'
 
 export const Login = () => {
@@ -14,6 +16,10 @@ export const Login = () => {
                 <p>GSB</p>
             </div>
             <div className="main-content col">
+                <Tooltip placement="right" title="Sélectionner un autre pôle" arrow>
+                    <FontAwesomeIcon icon={faArrowLeft} className="arrow-return" />
+                </Tooltip>
+
                 <form className="form-container">
                     <div className="input">
                         <p>Utilisateur</p>
