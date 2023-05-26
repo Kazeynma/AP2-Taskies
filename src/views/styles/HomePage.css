@@ -1,6 +1,13 @@
 .HomePage-container {
-    display : flex;
-    flex-direction : column;
-    gap : 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     justify-content: center;
+}
+
+.admin-button.MuiButtonBase-root {
+    width: 15%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }

@@ -1,12 +1,10 @@
-//#region importation utils
 import { Link } from "react-router-dom"
-//#region importation style
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
-import { TextField, Button, Tooltip } from "@mui/material"
-import './styles/Login.css'
+import { Tooltip, TextField, Button } from "@mui/material"
 
-export const Login = () => {
+export const LoginAdmin = () => {
     return (
         <div className="page-container row container-fluid">
             <div className="sidebar col-4">

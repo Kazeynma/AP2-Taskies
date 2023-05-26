@@ -1,5 +1,7 @@
 import { ChoosePole } from "../component/ChoosePole"
 
+//#region style
+import { Button } from "@mui/material"
 import {
     faNetworkWired,
     faPeopleGroup,
@@ -23,6 +25,7 @@ export const HomePage = () => {
                 <ChoosePole icon={faPersonChalkboard} name="Commercial" />
                 <ChoosePole icon={faFlask} name="Labo-recherche" />
             </div>
+            <Button className="admin-button">Je suis l'administrateur</Button>
         </div>
 
     )
